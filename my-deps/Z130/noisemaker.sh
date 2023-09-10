@@ -109,7 +109,7 @@ paplay --volume=67036 $(pwd)/warning-beep.wav &
 aplay --volume=67036 $(pwd)/warning-beep.wav &
 espeak -p 66 -s 200 ". ... ."
 espeak -a 200 -g 0 -p 50 -s 200 "... Alert."
-
+sleep 1s
 # Fluctuate brightness to alert me
 flashing
 
